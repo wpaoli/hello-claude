@@ -75,6 +75,21 @@
       background: rgba(255, 255, 255, 0.03);
     }
 
+    tr.section-divider td {
+      background: rgba(255, 255, 255, 0.06);
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 8px 18px;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    tr.section-divider:hover td {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
     td:first-child {
       font-weight: 600;
       color: #ffffff;
@@ -153,6 +168,45 @@
             <td>The capabilities the AI is enabled to perform</td>
             <td>Code generation, summarization, tool usage, reasoning tasks</td>
             <td>Defines what's possible — but results depend on context + structure.</td>
+          </tr>
+          <tr class="section-divider">
+            <td colspan="4">VS Code AI — Key Concepts</td>
+          </tr>
+          <tr>
+            <td>Language Models</td>
+            <td>The AI models that power all features, including how to choose and configure them</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Context</td>
+            <td>How VS Code assembles information for the model, from your files to conversation history</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Tools</td>
+            <td>Mechanisms that let agents act on your development environment and connect to external services</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Agents</td>
+            <td>The agent loop, agent types, subagents, memory, and planning</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Customization</td>
+            <td>How to tailor AI behavior with instructions, prompt files, custom agents, skills, hooks, and plugins</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Trust and Safety</td>
+            <td>Control mechanisms, AI limitations, and security considerations</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
         </tbody>
       </table>
